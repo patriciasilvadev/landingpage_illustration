@@ -1,0 +1,120 @@
+/*#region global*/
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;500;900 & display=swap');
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3, a{
+    font-size: 1.17em;
+}
+
+p{
+    font-size: 1em;
+}
+
+.btn{
+    background-color: red;
+        color: white;
+        padding: 14px;
+        transition: .5s;
+        border-radius: 5px;
+}
+/*#endregion global*/
+
+
+
+/*#region menu*/
+    .menu{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 40px;
+        align-items: center;
+    }
+
+    .logo{
+        color: white;
+        font-weight: bold;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .menuLinks{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menuLinks li{
+        padding: 14px;
+    }
+
+    .menuLinks li a{
+        color: white;
+        transition: .5s;
+    }
+
+    .menuLinks li a:hover{
+        background-color: red;
+        color: white;
+        padding: 14px;
+        transition: .5s;
+        border-radius: 5px;
+    }
+/*#endregion menu*/
+
+
+
+/*#region home*/
+    .homeContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .homeItems{
+        width: 50%;
+        height: 600px;
+        padding: 200px 72px;
+        
+    }
+
+    .black{
+        background-color: black;
+        color: white;
+    }
+
+    .homeItems h1{
+        margin-bottom: 20px;
+    }
+
+    .homeItems h2{
+        margin-bottom: 50px;
+    }
+
+    .bgimg{
+        background-image: url('../img/Book-pen-black.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+/*
+    .stats{
+        width: 100%;
+        padding-block: 4rem;
+        margin-inline: auto;
+
+    }
+    */
+/*#endregion home*/
