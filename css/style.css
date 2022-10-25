@@ -23,6 +23,7 @@ h3, a{
 p{
     font-size: 1.2em;
     margin-bottom: 20px;
+    color: #808080;
 }
 
 .btn{
@@ -95,7 +96,6 @@ hr{
         width: 50%;
         height: 600px;
         padding: 200px 72px;
-        
     }
 
     .black{
@@ -104,6 +104,13 @@ hr{
     }
 
     .homeItems h1{
+        margin-bottom: 20px;
+    }
+    .tituloRed {
+        color: red;
+    }
+    .description {
+        
         margin-bottom: 20px;
     }
 
@@ -116,6 +123,8 @@ hr{
         background-size: cover;
         background-position: center;
     }
+
+    
 /*#endregion home*/
 
 
