@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px){
+    
+    /* menu */
+    .menu{
+        flex-direction: column;
+    }
+
+    .menuLinks{
+        margin-top: 30px;
+    }
+
+    /* home */
+    .homeContainer{
+        flex-direction: column;
+    }
+    .homeItems{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* sobre */
+    .sobreContainer{
+        flex-direction: column;        
+        width: 100%;        
+    }
+
+    .sobreItems-60, .sobreItems-40{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobreItems-40 img{
+        width: 60%;
+        padding: 12px;
+        margin: 0 auto;
+    }
+    /* contato */
+
+    .contatoContainer {
+        flex-direction: column;
+    }
+    .contatoItems{
+        width: 100%;
+    }
+    /* footer */
+
+    .footerContainer {
+        flex-direction: column;
+        
+    }
+    .footerLinks {
+        margin: 30px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+    /* menu */
+    .menu{
+        flex-direction: column;
+    }
+    .menuLinks{
+        margin-top: 30px;
+    }
+
+    /* home */
+    .homeContainer{
+        flex-direction: column;
+    }
+    .homeItems{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* portfolio */
+
+    .portfolioContainer{
+        flex-direction: column;
+    }
+
+    .portfolioItems{
+        width: 100%;
+    }
+
+    /* sobre */
+
+    .sobreContainer{
+        flex-direction: column;        
+        width: 100%;        
+    }
+
+    .sobreItems-60, .sobreItems-40{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sobreItems-40 img{
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* contato */
+
+    .contatoContainer {
+        flex-direction: column;
+    }
+    .contatoItems{
+        width: 100%;
+    }
+
+    /* footer */
+
+    .footerContainer {
+        flex-direction: column;
+        
+    }
+    .footerLinks {
+        margin: 30px;
+    }
+
+
+}
+
