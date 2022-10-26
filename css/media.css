@@ -89,6 +89,10 @@
 
     /* sobre */
 
+    #sobre{
+        padding: 20px;
+    }
+
     .sobreContainer{
         flex-direction: column;        
         width: 100%;        
