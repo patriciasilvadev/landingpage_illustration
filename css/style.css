@@ -45,12 +45,15 @@ hr{
 
 /*#region menu*/
     .menu{
+        width: 100%;
         background-color: black;
         color: white;
+        position: fixed;
         display: flex;
         justify-content: space-between;
         padding: 20px 40px;
         align-items: center;
+        z-index: 100;
     }
 
     .logo{
@@ -153,6 +156,31 @@ hr{
         width: 100%;
         padding: 12px;
     }
+
+    .container{
+        position: relative;
+    }
+
+    .middle{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .container:hover .img{
+        opacity: 0.6;
+    }
+
+    .container:hover .middle{
+        opacity: 1;
+    }
+
+    
 /*#endregion portfolio*/
 
 
@@ -170,33 +198,29 @@ hr{
 .sobreContainer{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 46px;
     width: 80%;
     margin: 0 auto;
 }
 
-.sobreItems-60{
-    width: 60%;
-    padding: 12px;
+.red{
+    background-color: red;
+    color: white;
 }
 
-.one{
-    text-align: right;
+.sobreItems{
+    margin: 22px;
+    padding: 30px;
 }
 
-.two{
-    text-align: left;
+.sobreItems img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-radius: 50%;
+    
 }
 
-.sobreItems-40{
-    width: 40%;
-}
 
-.sobreItems-40 img{
-  width: 80%;
-  height: auto;   
-}
 /*#endregion sobre*/
 
 

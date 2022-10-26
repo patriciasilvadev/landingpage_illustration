@@ -94,15 +94,8 @@
         width: 100%;        
     }
 
-    .sobreItems-60, .sobreItems-40{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .sobreItems-40 img{
-        width: 100%;
-        padding: 12px;
+    .sobreItems img{
+        width: 200px;
     }
 
     /* contato */
