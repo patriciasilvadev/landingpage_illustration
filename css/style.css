@@ -291,23 +291,20 @@ footer{
 .footerContainer li{
     height: 30px;
     line-height: 30px;
-    transition: .3s;
-}
-
-.footerContainer li:hover{
-    transition: .3s;
-}
-
-.footerContainer li:hover a{
-    background-color: red;
-    transition: .5s;
-    padding: 5px;
-    border: 1px solid white;
 }
 
 .footerContainer a{
-   color: white;
-   padding: 10px;
+    color: white;
+    padding: 10px;
+    transition: .5s;
+ }
+
+.footerContainer li a:hover {
+    background-color: red;
+    color: white;
+    padding: 14px;
+    transition: .5s;
+    border-radius: 5px;
 }
 
 .footerLinks{
