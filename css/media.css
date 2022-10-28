@@ -43,15 +43,6 @@
     .contatoItems{
         width: 100%;
     }
-    /* footer */
-
-    .footerContainer {
-        flex-direction: column;
-        
-    }
-    .footerLinks {
-        margin: 30px;
-    }
 }
 
 
@@ -110,17 +101,6 @@
     .contatoItems{
         width: 100%;
     }
-
-    /* footer */
-
-    .footerContainer {
-        flex-direction: column;
-        
-    }
-    .footerLinks {
-        margin: 30px;
-    }
-
 
 }
 

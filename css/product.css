@@ -1,0 +1,113 @@
+/*#region product*/
+
+    #product{
+        padding: 72px;
+    }
+
+    .productContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .productItems{
+        padding: 80px;
+    }
+
+    .info h1{
+        margin-bottom: 10px;
+    }
+
+    .info h2{
+        margin-bottom: 10px;
+    }
+
+    .stars{
+        margin-bottom: 30px;
+    }
+
+    .info p{
+        margin-bottom: 30px;
+    }
+
+    .checked {
+        color: orange;
+      }
+    
+/*#endregion product*/
+
+
+
+/*#region aboutart*/
+
+    #aboutart{
+        padding: 72px;
+        background-color: #f1f1f1;
+    }
+
+    .aboutartContainer h2{
+        margin-bottom: 10px;
+    }
+
+/*#endregion aboutart*/
+
+
+
+/*#region materials*/
+    #materials{
+        padding: 72px;
+        text-align: center;
+    }
+
+    #materials h2{
+        margin-bottom: 30px;
+    }
+
+    .materialsContainer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .materialsItems{
+        width: 50%;
+    }
+
+    table{
+        font-size: 0.6cm;
+        border-collapse: collapse;
+        width: 800px;
+    }
+
+    td{
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+     }
+/*#endregion materials*/
+
+
+
+/*#region process*/
+     #process{
+         padding: 72px;
+         text-align: center;
+     }
+
+     .processContainer{
+         display: flex;
+         flex-direction: row;
+     }
+
+     .processItems{
+         width: 33%;
+         padding: 10px;
+     }
+
+     .processItems img{
+         width: 100%;
+
+     }
+/*#endregion process*/

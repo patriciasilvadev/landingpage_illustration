@@ -251,7 +251,7 @@ hr{
         flex-direction: column;
     }
 
-    input[type=text], [type=email], textarea{
+    input[type=text], [type=email], textarea, select{
         padding: 12px;
         margin-bottom: 10px;
         border: 1px solid #ccc;
@@ -280,35 +280,5 @@ footer{
     text-align: center;
 }
 
-.footerContainer{
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
 
-.footerContainer li{
-    height: 30px;
-    line-height: 30px;
-}
-
-.footerContainer a{
-    color: white;
-    padding: 10px;
-    transition: .5s;
- }
-
-.footerContainer li a:hover {
-    background-color: red;
-    color: white;
-    padding: 14px;
-    transition: .5s;
-    border-radius: 5px;
-}
-
-.footerLinks{
-    display: flex;
-    flex-direction: row;
-}
 /*#endregion footer*/
