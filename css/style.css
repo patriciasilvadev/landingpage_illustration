@@ -17,7 +17,7 @@ h2{
 }
 
 h3, a{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 p{
@@ -98,7 +98,7 @@ hr{
     .homeItems{
         width: 50%;
         height: 600px;
-        padding: 150px 72px;
+        padding: 200px 72px;
     }
 
     .black{
@@ -217,9 +217,11 @@ hr{
     margin: 0 auto;
     padding: 40px 0;
     border-radius: 50%;
-    
 }
 
+.profilered p{
+    color: #cccccc;
+}
 
 /*#endregion sobre*/
 
