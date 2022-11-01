@@ -246,6 +246,11 @@ hr{
         width: 50%;
     }
 
+    .contatoItemsCentered{
+        width: 50%;
+        margin: 0 auto;
+    }
+
     form{
         padding: 20px;
         background-color: #f1f1f1;

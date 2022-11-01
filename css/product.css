@@ -1,18 +1,20 @@
 /*#region product*/
-
-    #product{
-        padding: 72px;
-    }
-
-    .productContainer{
+    .productContainer {
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
+        padding: 200px 10px;
+    }
+    .productItems {
+        width: 50%;
     }
 
-    .productItems{
-        padding: 80px;
+    .productItems img {
+        width: 100%;
+        margin: auto;
+        padding: 0 50px;
+       
     }
-
     .info h1{
         margin-bottom: 10px;
     }
@@ -28,7 +30,6 @@
     .info p{
         margin-bottom: 30px;
     }
-
     .checked {
         color: orange;
       }
@@ -53,23 +54,6 @@
 
 
 /*#region materials*/
-    #materials{
-        padding: 72px;
-        text-align: center;
-    }
-
-    #materials h2{
-        margin-bottom: 30px;
-    }
-
-    .materialsContainer{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .materialsItems{
-        width: 50%;
-    }
 
     table{
         font-size: 0.6cm;
@@ -86,28 +70,11 @@
     tr:nth-child(even) {
         background-color: #dddddd;
      }
+
+     .materials {
+        padding: 50px 0;
+     }
 /*#endregion materials*/
 
 
 
-/*#region process*/
-     #process{
-         padding: 72px;
-         text-align: center;
-     }
-
-     .processContainer{
-         display: flex;
-         flex-direction: row;
-     }
-
-     .processItems{
-         width: 33%;
-         padding: 10px;
-     }
-
-     .processItems img{
-         width: 100%;
-
-     }
-/*#endregion process*/

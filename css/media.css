@@ -38,12 +38,30 @@
     }
 
     /* contato */
-    .contatoContainer {
-        flex-direction: column;
+    #product{
+        padding: 10px;
     }
+    .productContainer {
+        display: flex;
+        flex-direction: row;
+    }  
 
     .contatoItems{
         width: 100%;
+    }
+
+    /* Produto */
+    .productContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 200px 10px;
+    }
+
+    .productItems {
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -104,6 +122,23 @@
     .contatoItems{
         width: 100%;
     }
+
+
+    /* Produto */
+    .productContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 200px 10px;
+    }
+
+    .productItems {
+        width: 100%;
+        text-align: center;
+    }
+ 
+
 
 }
 
