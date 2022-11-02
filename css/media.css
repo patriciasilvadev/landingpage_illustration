@@ -1,4 +1,17 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
+    /* home */
+    .homeContainer{
+        flex-direction: column;
+    }
+
+    .homeItems{
+        width: 100%;
+        text-align: center;
+    }
+    
+}  
+    
+    @media screen and (max-width: 768px){
     
     /* menu */
     .menu{
@@ -18,24 +31,29 @@
         width: 100%;
         text-align: center;
     }
+    /* portfolio */
+
+    .portfolioContainer{
+        flex-direction: column;
+        
+        
+    }
+
+    .portfolioItems{
+        width: 100%;
+    }
 
     /* sobre */
     .sobreContainer{
         flex-direction: column;        
-        width: 100%;        
+        width: 100%;           
+    }
+    .sobreItems{
+        width: 70%;
+        margin: 18px auto;
+        padding: 36px;    
     }
 
-    .sobreItems-60, .sobreItems-40{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .sobreItems-40 img{
-        width: 60%;
-        padding: 12px;
-        margin: 0 auto;
-    }
 
     /* contato */
     #product{
@@ -46,8 +64,9 @@
         flex-direction: row;
     }  
 
-    .contatoItems{
-        width: 100%;
+    .contatoItemsCentered{
+        width: 80%;
+        margin: 0 auto;
     }
 
     /* Produto */
@@ -61,6 +80,20 @@
 
     .productItems {
         width: 100%;
+        text-align: center;
+    }
+
+    .pageProductContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pageProductItems {
+        width: 100%;
+    }
+    .pageProductItems p {
+        margin-bottom: 36px;
+    }
+    .aboutartContainer {
         text-align: center;
     }
 }
@@ -99,19 +132,16 @@
         width: 100%;
     }
 
+    
     /* sobre */
-
-    #sobre{
-        padding: 20px;
-    }
-
     .sobreContainer{
         flex-direction: column;        
-        width: 100%;        
+        width: 100%;           
     }
-
-    .sobreItems img{
-        width: 200px;
+    .sobreItems{
+        width: 100%;
+        margin: 18px auto;
+        padding: 36px;    
     }
 
     /* contato */
@@ -119,10 +149,10 @@
     .contatoContainer {
         flex-direction: column;
     }
-    .contatoItems{
+    .contatoItemsCentered{
         width: 100%;
+        margin: 0 auto;
     }
-
 
     /* Produto */
     .productContainer {
@@ -135,6 +165,20 @@
 
     .productItems {
         width: 100%;
+        text-align: center;
+    }
+
+    .pageProductContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pageProductItems {
+        width: 100%;
+    }
+    .pageProductItems p {
+        margin-bottom: 36px;
+    }
+    .aboutartContainer {
         text-align: center;
     }
  

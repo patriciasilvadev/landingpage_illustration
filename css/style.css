@@ -16,29 +16,43 @@ h2{
     font-size: 2em;
 }
 
-h3, a{
+h3, a, p {
     font-size: 1.2em;
-}
-
-p{
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color: #808080;
 }
 
 .btn{
     background-color: red;
-        color: white;
-        padding: 14px;
-        transition: .5s;
-        border-radius: 5px;
+    color: white;
+    padding: 14px;
+    transition: .5s;
+    border-radius: 5px;
 }
-
 
 hr{
     border-top: 3px solid red;
     width: 200px;
 }
+
+.red{
+    background-color: red;
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+
+/* cor clara para paragrafo*/
+.clearDescription{
+    color: #f2f2f2;
+    opacity: 0.8;
+}
+/* cor escura para paragrafo*/
+.darkDescription{
+    color: #666666;
+    opacity: 0.8;
+}
+
 /*#endregion global*/
 
 
@@ -51,83 +65,71 @@ hr{
         position: fixed;
         display: flex;
         justify-content: space-between;
-        padding: 20px 40px;
+        padding: 18px 36px;
         align-items: center;
         z-index: 100;
     }
-
     .logo{
         color: white;
         font-weight: bold;
         border: 1px solid white;
-        border-radius: 5px;
-        padding: 5px;
+        border-radius: 9px;
+        padding: 9px;
     }
-
     .menuLinks{
         display: flex;
         justify-content: space-between;
     }
-
     .menuLinks li{
-        padding: 14px;
+        padding: 18px;
     }
-
     .menuLinks li a{
         color: white;
         transition: .5s;
     }
-
     .menuLinks li a:hover{
         background-color: red;
         color: white;
-        padding: 14px;
+        padding: 18px;
         transition: .5s;
-        border-radius: 5px;
+        border-radius: 9px;
     }
+    	
+.principal {
+    position: relative;
+}
 /*#endregion menu*/
 
 
 
 /*#region home*/
+   #home {
+    padding: 72px 0;
+   }
     .homeContainer{
         display: flex;
         flex-direction: row;
     }
-
     .homeItems{
         width: 50%;
-        height: 600px;
-        padding: 200px 72px;
+        height: auto;
+        padding: 144px;
     }
-
-    .black{
-        background-color: black;
-        color: white;
+    .homeContainer p {
+        margin-bottom: 36px;
     }
-
-    .homeItems h1{
-        margin-bottom: 20px;
-    }
-    .tituloRed {
+    .titleWhite {
+        margin-bottom: 18px;        
+    }    
+    .titleRed {
         color: red;
-    }
-    .description {
-        
-        margin-bottom: 20px;
-    }
-
-    .homeItems h2{
-        margin-bottom: 50px;
-    }
-
+        margin-bottom: 72px;
+    }    
     .bgimg{
         background-image: url('../img/Book-pen-black.jpg');
         background-size: cover;
         background-position: center;
-    }
-
-    
+    }    
 /*#endregion home*/
 
 
@@ -136,31 +138,28 @@ hr{
     #portfolio{
         padding: 72px 0;
         text-align: center;        
-    width: 80%;
-    margin: 0 auto;
+        width: 80%;
+        margin: 0 auto;
     }
-
     .portfolioContainer{
         display: flex;
         flex-direction: row;
     }
-
+    #portfolio p {
+        margin-bottom: 36px;
+    }
     .portfolioItems{
         width: 33%;
         display: flex;
         flex-direction: column;
-        
     }
-
     .portfolioItems img{
         width: 100%;
-        padding: 12px;
+        padding: 9px;
     }
-
     .container{
         position: relative;
     }
-
     .middle{
         transition: .5s ease;
         opacity: 0;
@@ -171,11 +170,9 @@ hr{
         -ms-transform: translate(-50%, -50%);
         text-align: center;
     }
-
     .container:hover .img{
         opacity: 0.6;
     }
-
     .container:hover .middle{
         opacity: 1;
     }
@@ -191,38 +188,26 @@ hr{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    text-align: center;
-    padding: 72px;
+    padding: 72px;        
+    margin: 0 auto;
+    text-align: center;   
 }
-
 .sobreContainer{
     display: flex;
     flex-direction: row;
-    width: 80%;
-    margin: 0 auto;
+    justify-content: center;       
 }
-
-.red{
-    background-color: red;
-    color: white;
-}
-
 .sobreItems{
-    margin: 22px;
-    padding: 30px;
+    width: 360px;
+    margin: 18px;
+    padding: 36px;    
 }
-
 .sobreItems img{
     width: 100%;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 36px 0;
     border-radius: 50%;
 }
-
-.profilered p{
-    color: #cccccc;
-}
-
 /*#endregion sobre*/
 
 
@@ -230,8 +215,8 @@ hr{
 /*#region contato*/
     #contato{
     padding: 72px 0;
-    text-align: center;
-    
+    padding-top: 200px;
+    text-align: center;    
     width: 80%;
     margin: 0 auto;
     }

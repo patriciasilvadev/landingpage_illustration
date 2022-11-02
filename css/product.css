@@ -1,34 +1,23 @@
 /*#region product*/
-    .productContainer {
+    .pageProductContainer {
         margin: 0 auto;
         display: flex;
         flex-direction: row;
-        padding: 200px 10px;
+        padding: 172px 72px;
     }
-    .productItems {
+    .pageProductItems {
         width: 50%;
     }
-
-    .productItems img {
+    .pageProductItems img {
         width: 100%;
-        margin: auto;
-        padding: 0 50px;
-       
+        margin: 0 auto;
+        padding: 0 36px;      
     }
-    .info h1{
-        margin-bottom: 10px;
+    .pageProductItems h1, h2{
+        margin-bottom: 18px; 
     }
-
-    .info h2{
-        margin-bottom: 10px;
-    }
-
     .stars{
-        margin-bottom: 30px;
-    }
-
-    .info p{
-        margin-bottom: 30px;
+        margin-bottom: 36px;
     }
     .checked {
         color: orange;
@@ -52,29 +41,6 @@
 /*#endregion aboutart*/
 
 
-
-/*#region materials*/
-
-    table{
-        font-size: 0.6cm;
-        border-collapse: collapse;
-        width: 800px;
-    }
-
-    td{
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-     }
-
-     .materials {
-        padding: 50px 0;
-     }
-/*#endregion materials*/
 
 
 
