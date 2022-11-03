@@ -31,17 +31,20 @@
         width: 100%;
         text-align: center;
     }
-    /* portfolio */
 
-    .portfolioContainer{
-        flex-direction: column;
-        
+
+
+    /* section portfolio */
+    .portfolioContainer, .pagePortfolioContainer{
+        flex-direction: column;        
         
     }
-
-    .portfolioItems{
+    .portfolioItems, .pagePortfolioItems{
         width: 100%;
     }
+    
+
+    
 
     /* sobre */
     .sobreContainer{

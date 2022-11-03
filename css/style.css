@@ -140,6 +140,7 @@ hr{
         text-align: center;        
         width: 80%;
         margin: 0 auto;
+        position: relative;
     }
     .portfolioContainer{
         display: flex;
@@ -176,6 +177,8 @@ hr{
     .container:hover .middle{
         opacity: 1;
     }
+
+    
 
     
 /*#endregion portfolio*/
@@ -274,3 +277,5 @@ footer{
 
 
 /*#endregion footer*/
+
+
