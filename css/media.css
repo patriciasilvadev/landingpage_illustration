@@ -59,18 +59,21 @@
 
 
     /* contato */
-    #product{
-        padding: 10px;
+    .contatoContainer {
+        flex-direction: column;
     }
-    .productContainer {
-        display: flex;
-        flex-direction: row;
-    }  
-
     .contatoItemsCentered{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
+    .contatoItems {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+
+
+
 
     /* Produto */
     .productContainer {
@@ -92,10 +95,7 @@
     }
     .pageProductItems {
         width: 100%;
-    }
-    .pageProductItems p {
-        margin-bottom: 36px;
-    }
+    }    
     .aboutartContainer {
         text-align: center;
     }
@@ -156,6 +156,12 @@
         width: 100%;
         margin: 0 auto;
     }
+    .contatoItems {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    
 
     /* Produto */
     .productContainer {
@@ -177,9 +183,6 @@
     }
     .pageProductItems {
         width: 100%;
-    }
-    .pageProductItems p {
-        margin-bottom: 36px;
     }
     .aboutartContainer {
         text-align: center;
