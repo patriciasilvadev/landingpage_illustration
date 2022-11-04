@@ -1,0 +1,204 @@
+@media screen and (max-width: 1024px){
+    /* home */
+    .homeContainer{
+        flex-direction: column;
+    }
+
+    .homeItems{
+        width: 100%;
+        text-align: center;
+    }
+    
+}  
+    
+    @media screen and (max-width: 768px){
+    
+    /* menu */
+    .menu{
+        flex-direction: column;
+    }
+
+    .menuLinks{
+        margin-top: 30px;
+    }
+
+    /* home */
+    .homeContainer{
+        flex-direction: column;
+    }
+
+    .homeItems{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    /* section portfolio */
+    .portfolioContainer, .pagePortfolioContainer{
+        flex-direction: column;        
+        
+    }
+    .portfolioItems, .pagePortfolioItems{
+        width: 100%;
+    }
+    
+
+    
+
+    /* sobre */
+    .sobreContainer{
+        flex-direction: column;        
+        width: 100%;           
+    }
+    .sobreItems{
+        width: 70%;
+        margin: 18px auto;
+        padding: 36px;    
+    }
+
+
+    /* contato */
+    .contatoContainer {
+        flex-direction: column;
+    }
+    .contatoItemsCentered{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contatoItems {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+
+
+
+
+    /* Produto */
+    .productContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 200px 10px;
+    }
+
+    .productItems {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pageProductContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pageProductItems {
+        width: 100%;
+    }    
+    .aboutartContainer {
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+    /* menu */
+    .menu{
+        flex-direction: column;
+    }
+    .menuLinks{
+        margin-top: 30px;
+    }
+
+    /* home */
+    .homeContainer{
+        flex-direction: column;
+    }
+    .homeItems{
+        width: 100%;
+        text-align: center;
+        padding: 170px 72px;
+    }
+
+    /* portfolio */
+
+    .portfolioContainer{
+        flex-direction: column;
+    }
+
+    .portfolioItems{
+        width: 100%;
+    }
+
+    
+
+
+    /* contato */
+
+    .contatoContainer {
+        flex-direction: column;
+    }
+    .contatoItemsCentered{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contatoItems {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    
+
+    /* Produto */
+    .productContainer {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 200px 10px;
+    }
+
+    .productItems {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pageProductContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pageProductItems {
+        width: 100%;
+    }
+    .aboutartContainer {
+        text-align: center;
+    }
+
+
+    /* sobre */
+
+    #pageSobre{
+        padding: 175px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sobreContainer{
+        flex-direction: column;        
+        width: 100%;           
+    }
+    .sobreItems{
+        width: 90%;
+        margin: 18px auto;
+        padding: 36px;    
+    }
+ 
+
+
+}
+

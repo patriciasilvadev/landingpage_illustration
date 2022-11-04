@@ -1,0 +1,376 @@
+/*#region global*/
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;500;900 & display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3, a, p {
+    font-size: 1.2em;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 14px;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+hr{
+    border-top: 3px solid red;
+    width: 200px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+
+/* cor clara para paragrafo*/
+.clearDescription{
+    color: #f2f2f2;
+    opacity: 0.8;
+}
+/* cor escura para paragrafo*/
+.darkDescription{
+    color: #666666;
+    opacity: 0.8;
+}
+
+/*#endregion global*/
+
+
+
+/*#region menu*/
+    .menu{
+        width: 100%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 36px;
+        align-items: center;
+        z-index: 100;
+    }
+    .logo{
+        color: white;
+        font-weight: bold;
+        border: 1px solid white;
+        border-radius: 9px;
+        padding: 9px;
+    }
+    .menuLinks{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menuLinks li{
+        padding: 18px;
+    }
+    .menuLinks li a{
+        color: white;
+        transition: .5s;
+    }
+    .menuLinks li a:hover{
+        background-color: red;
+        color: white;
+        padding: 18px;
+        transition: .5s;
+        border-radius: 9px;
+    }
+    	
+.principal {
+    position: relative;
+}
+/*#endregion menu*/
+
+
+
+/*#region home*/
+   #home {
+    padding: 72px 0;
+   }
+    .homeContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .homeItems{
+        width: 50%;
+        height: auto;
+        padding: 144px;
+    }
+    .homeContainer p {
+        margin-bottom: 36px;
+    }
+    .titleWhite {
+        margin-bottom: 18px;        
+    }    
+    .titleRed {
+        color: red;
+        margin-bottom: 72px;
+    }    
+    .bgimg{
+        background-image: url('../img/Book-pen-black.jpg');
+        background-size: cover;
+        background-position: center;
+    }    
+/*#endregion home*/
+
+
+
+/*#region portfolio*/
+    #portfolio{
+        padding: 72px 0;
+        text-align: center;        
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .portfolioContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    #portfolio p {
+        margin-bottom: 36px;
+    }
+    .portfolioItems{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolioItems img{
+        width: 100%;
+        padding: 9px;
+    }
+    .container{
+        position: relative;
+    }
+    .middle{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .container:hover .img{
+        opacity: 0.6;
+    }
+    .container:hover .middle{
+        opacity: 1;
+    }
+
+    #pagePortfolio{
+        padding: 172px 0;
+        text-align: center;        
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .pagePortfolioContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    #pagePortfolio p {
+        margin-bottom: 36px;
+    }
+    .pagePortfolioItems{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+    }
+    .pagePortfolioItems img{
+        width: 100%;
+        padding: 9px;
+    }
+    
+
+    
+/*#endregion portfolio*/
+
+
+
+/*#region sobre*/
+#sobre{
+    background-image: url(../img/papel-amassado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 72px;        
+    margin: 0 auto;
+    text-align: center;   
+}
+.sobreContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;       
+}
+.sobreItems{
+    width: 360px;
+    margin: 18px;
+    padding: 36px;    
+}
+.sobreItems img{
+    width: 100%;
+    margin: 0 auto;
+    padding: 36px 0;
+    border-radius: 50%;
+}
+
+#pageSobre{
+    background-image: url(../img/papel-amassado.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 172px;        
+    margin: 0 auto;
+    text-align: center;   
+}
+/*#endregion sobre*/
+
+
+
+/*#region contato*/
+    #contato{
+    padding: 72px 0;
+    padding-top: 200px;
+    text-align: center;    
+    width: 80%;
+    margin: 0 auto;
+    }
+
+    .contatoContainer{
+        display: flex;
+        flex-direction: row;
+        padding: 46px 0;
+    }
+
+    .contatoItems{
+        width: 50%;
+        margin: 9px;
+    }
+
+    .contatoItemsCentered{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    form{
+        padding: 20px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type=text], [type=email], textarea, select{
+        padding: 12px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    [type=submit], [type=reset]{
+        padding: 12px 20px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+    }
+/*#endregion contato*/
+
+
+
+/*#region footer*/
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+
+/*#endregion footer*/
+
+
+
+/*#region product*/
+.pageProductContainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 172px 72px;
+}
+.pageProductItems {
+    width: 50%;
+}
+.pageProductItems img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 36px;      
+}
+.pageProductItems h1, h2{
+    margin-bottom: 18px; 
+}
+.pageProductItems p {
+    margin-bottom: 36px;
+}
+
+.stars{
+    margin-bottom: 36px;
+}
+.checked {
+    color: orange;
+  }
+
+/*#endregion product*/
+
+
+
+/*#region aboutart*/
+
+#aboutart{
+    padding: 72px;
+    background-color: #f1f1f1;
+}
+
+.aboutartContainer h2{
+    margin-bottom: 10px;
+}
+
+/*#endregion aboutart*/
+
+
+
+/* page budget */
+
+    #budget{
+        width: 80%;
+        padding: 172px 0;        
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    .budgetContainer{
+        margin-top: 36px;
+    }

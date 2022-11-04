@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/buy.css">
     <link rel="stylesheet" href="css/media.css">
     
     <title>Irmãs Silva - Orçamento</title>
@@ -26,35 +25,37 @@
     </nav>
 
     <!-- Contato -->
-    <section id="buy">
+    <section id="budget">
         <h2>Quero uma Fã Arte</h2>
         <hr>
         <p>Gostou de nossas fã artes? Então, envie um email pra gente criar uma pra você!</p>
-        <div class="buyContainer">
-            <div class="buyItems">
+        <div class="budgetContainer">
+            <div class="budgetItems">
 
             </div>
 
-            <div class="buyItems">
-                <form action="https://api.staticforms.xyz/submit" method="post">
-                    <input type="text" name="name" placeholder="Nome:">
-                    <input type="email" name="email" placeholder="Email:">                  
-                    <textarea name="message" placeholder="Imforme a arte desejada:" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Cancelar">
+            <div class="budgetItems">
 
+                                <!-- Make sure you don't change the form action-->
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="name" placeholder="Nome:"> <!-- Optional -->
+                    <input type="text" name="email" placeholder="Email:"> <!-- Optional -->
+                    <input type="text" name="phone" placeholder="Telefone:"> <!-- Optional -->
+                    <textarea name="message" placeholder="Descreva para gente como deseja sua fã arte..." cols="30" rows="10"></textarea> <!-- Optional -->
+                
                     <input type="hidden" name="accessKey" value="3cf31b78-d46b-4ec7-9bce-3398f065635c">
                     <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/thanks.html">
+                    <input type="submit" value="Enviar" />
                 </form>
+
             </div>
         </div>
     </section>
 
     
     <!-- Footer -->
-    <footer>
-        
-        <p>&copy;2022 Irmãs Silva</p>
+    <footer>        
+        <p class="clearDescription">&copy;2022 Irmãs Silva</p>
     </footer>
 
 </body>
