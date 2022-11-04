@@ -361,3 +361,16 @@ footer{
 /*#endregion aboutart*/
 
 
+
+/* page budget */
+
+    #budget{
+        width: 80%;
+        padding: 172px 0;        
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    .budgetContainer{
+        margin-top: 36px;
+    }

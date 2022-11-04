@@ -136,16 +136,7 @@
     }
 
     
-    /* sobre */
-    .sobreContainer{
-        flex-direction: column;        
-        width: 100%;           
-    }
-    .sobreItems{
-        width: 100%;
-        margin: 18px auto;
-        padding: 36px;    
-    }
+
 
     /* contato */
 
@@ -186,6 +177,25 @@
     }
     .aboutartContainer {
         text-align: center;
+    }
+
+
+    /* sobre */
+
+    #pageSobre{
+        padding: 175px 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sobreContainer{
+        flex-direction: column;        
+        width: 100%;           
+    }
+    .sobreItems{
+        width: 90%;
+        margin: 18px auto;
+        padding: 36px;    
     }
  
 
